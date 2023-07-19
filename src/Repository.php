@@ -1,6 +1,6 @@
 <?php
 
-namespace Rafi021\RepositoryPatterny;
+namespace Rafi021\RepositoryPattern;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;

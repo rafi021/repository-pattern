@@ -10,7 +10,7 @@ return [
     /*
         Default repository namespace
     */
-    "repository_namespace" => "App/Repositories",
+    "repository_namespace" => "App\Repositories",
 
     /*
         The directory for all the services
@@ -20,7 +20,7 @@ return [
     /*
         Default service namespace
     */
-    "service_namespace" => "App/Services",
+    "service_namespace" => "App\Services",
 
     /*
         Default repository implementation

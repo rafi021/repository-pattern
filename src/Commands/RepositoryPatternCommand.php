@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Rafi021\RepositoryPattern\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class RepositoryPatternCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'repository-pattern';
 
     public $description = 'My command';
 

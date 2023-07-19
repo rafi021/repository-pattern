@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "rafi021/repository-pattern",
+    "description": "A laravel pacakge for appling repository pattern in application",
     "keywords": [
-        ":vendor_name",
+        "rafi021",
         "laravel",
-        ":package_slug"
+        "repository-pattern"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/rafi021/repository-pattern",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "mahmud ibrahim",
+            "email": "ibrahim@shuttlebd.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Rafi021\\RepositoryPattern\\": "src/",
+            "Rafi021\\RepositoryPattern\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Rafi021\\RepositoryPattern\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Rafi021\\RepositoryPattern\\RepositoryPatternServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "RepositoryPattern": "Rafi021\\RepositoryPattern\\Facades\\RepositoryPattern"
             }
         }
     },
